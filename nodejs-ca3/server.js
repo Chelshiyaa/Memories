@@ -6,8 +6,7 @@ const multer = require('multer');
 const path = require('path');
 const fs = require('fs').promises; 
 const PORT = process.env.PORT || 3000; 
-const DATABASE_URL = "mongodb+srv://user:<password>@cluster0.aakzqwt.mongodb.net/
-";
+const DATABASE_URL = "mongodb+srv://user:<password>@cluster0.aakzqwt.mongodb.net/";
 
 const ImageModel = require("./imagemodel");
 
